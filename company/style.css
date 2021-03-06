@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}
+body{
+    font-family: 'Rubik', sans-serif !important;
+
+}
+
+.navbar {
+    background-color:#fedc19 !important;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.navbar-brand{
+    font-size: 2rem !important;
+    color: black !important;
+    font-weight: bolder;
+
+}
+.navbar li a {
+    font-size: 1rem;
+    text-decoration: capitalize;
+    text-transform: uppercase;
+    color:#000 !important;
+}
+
+.menu_active {
+    font-weight: bold;
+    
+}
+
+.navbar li a:hover {
+    border-bottom: 4px solid #000;
+    
+
+}
+.nav-item .btn-logout {
+    background-color: #000;
+    color: #fedc19 !important;
+}
+
+
+.image1 {
+    height: 70vh;
+    width: 100%;
+    max-width: 100%;
+    
+}
+.image2 img{
+    height: 100vh;
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+#header h1 {
+    margin: 0 0 10px;
+    font-size: 2.4rem;
+    font-weight: 900;
+    color: #fedc19;
+   
+
+}
+#header h2 {
+    color: #000;
+    font-size: 2rem;
+   
+
+}
+#header .btn-submit {
+    font-weight: bolder;
+    font-size: 17px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 1s;
+    color: #000;
+    background-color: #fedc19;
+    
+    text-decoration: none;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.26);
+    
+
+}
+#header .btn-result {
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 1s;
+    color: #000;
+    background-color: #fedc19;
+    border: 2px solid #fedc19;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    margin-left: 5rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.26);
+
+}
+#header .btn-result:hover {
+
+    transform: translate(0, -10px);
+}
+#header .btn-submit:hover {
+
+    transform: translate(0, -10px);
+}
+
+#header .btn-vote {
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 35px;
+    border-radius: 50px;
+    transition: 1s;
+    color: #fedc19;
+    background-color: #000;
+    border: 2px solid #000;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.26);
+
+}
+#header {
+    width: 100%;
+    height: 100%;
+    margin-top: 70px;
+
+}
+
+.header-img {
+    text-align: right;
+
+    /* padding-top: 20rem; */
+}
+#header .animated {
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+@-webkit-keyframes up-down {
+
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes up-down {
+
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+
+#post .post{
+    max-width: 100% !important;
+    background-color: #ededed;
+}
+
+
+
+
+#post .post{
+    max-width: 100% !important;
+    
+}
+
+
+#post .card-header-name{
+    font-size: 1.2rem !important;
+    font-weight: bolder;
+    
+    color: #000000b9 !important;
+    text-transform: uppercase;
+    
+
+}
+#post .card-header-icon{
+    font-size: 3rem !important;
+    font-weight: bolder;
+    
+    color: #000 !important;
+    text-transform: uppercase;
+    
+
+}
+#post .card-comp-name{
+    font-size: 1rem !important;
+    font-weight: bolder;
+ 
+    color: #000;
+    /* text-transform: uppercase; */
+
+}
+#post .card-comp-details{
+    font-size: 1rem !important;
+    color: #000;
+    font-weight: bold;
+   
+    /* text-transform: capitalize; */
+
+}
+#post .card{
+    box-shadow: 1px 5px 1rem rgba(0, 0, 0, 0.151);
+}
+
+.btn-apply {
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 50px;
+    transition: 1s;
+    color:#000 ;
+    background-color:#fedc19 ;
+    border: 2px solid #fedc19;
+    text-decoration: none;
+    margin-bottom: 2rem;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.13);
+
+}
+.table{
+    background-color: #ededed;
+}
+.thead{
+    background-color: #fedc19 !important;
+}
+
+.footer {
+    /* position: absolute; */
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #fedc19;
+    text-align: center;
+    color: #000;
+    height: 20vh;
+    font-weight: bolder;
+  }
+
+  .footer h5{
+      font-weight: bolder;
+      font-size: 1rem;
+      
+  }
